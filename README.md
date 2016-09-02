@@ -9,9 +9,10 @@ Getting Started
 ---------------
 1. Install opauth-microsoft-v2-auth:
 
-```cd path_to_opauth/Strategy
-
-git clone git://github.com/cbales/opauth-microsoft-v2-auth.git Microsoft-V2-Auth```
+```bash
+cd path_to_opauth/Strategy
+git clone git://github.com/cbales/opauth-microsoft-v2-auth.git Microsoft-V2-Auth
+```
 
 2. Register an app on the [Microsoft Application Registration Portal](https://apps.dev.microsoft.com)
 3. Configure the strategy with the app id, app secret, and optional scope (see the [Permission Scopes](https://graph.microsoft.io/en-us/docs/authorization/permission_scopes) page for all available scopes)
